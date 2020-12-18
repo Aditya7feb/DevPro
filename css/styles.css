@@ -1,0 +1,44 @@
+.header {
+
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 0;
+    overflow: hidden;
+    background-color:transparent;
+}
+    
+.header-tabs { 
+    float: right;
+}
+  
+.header-tabs a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+  
+.header-tabs a:hover {
+    background-color: rgb(246, 249, 253);
+}
+ 
+.banner{
+   
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+.banner h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: snow;
+    
+}
+
+.column{
+    padding: 10em;
+    text-align: center;
+}
