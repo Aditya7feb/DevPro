@@ -3,35 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>DevPro</title>
-
-    <link rel="stylesheet" href="css/styles.css">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="headerclass">
-    <ul class="header">
-        <li class="header-tabs"><a href="#about.html">About</a></li>
-        <li class="header-tabs"><a href="#services.html">Services</a></li>
-        <li class="header-tabs"><a href="#pricing.html">Pricing</a></li>
-        <li class="header-tabs"><a href="#contact-us.html">Contact Us</a></li>
-    </ul>
-</div>
-
-<section class="banner" style="background-image: url(assets/hooding.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <h1>Hello..!</h1>
-                <h1>It's DevPro</h1>
-            </div>
-
+    <header>
+        <div class="logo-container">
+            <img src="#" alt="logo">
+            <h4 class="logo">DevPro</h4>
         </div>
-    </div>
-</section>
- 
-                       
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#">Services</a></li>
+                <li><a class="nav-link" href="#">Pricing</a></li>
+                <li><a class="nav-link" href="#">About</a></li>
+                <li><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="admin-login">
+            <img src="./assets/img/user.png" alt="admin-login" style="height: 3vh;" />
+        </div>
+    </header>
+
+    <main>
+        <section class="presentation">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1>Neque porro quisquam est qui</h1>
+                    <p>"There is no one who loves pain itself, who seeks 
+                        after it and wants to have it, simply because it is pain.
+                    </p>
+                </div>
+                <div class="cta">
+                    <button class="cta-select">GetQuote</button>
+                    <button class="cta-contact">ContactUs</button>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="./assets/img/cross_platform_mobile_development.jpg">
+            </div>
+        </section>
+
+        <img class="big-circle" src="./assets/img/big-eclipse.svg">
+        <img class="medium-circle" src="./assets/img/mid-eclipse.svg" alt="">
+        
+    </main>
+
 </body>
 </html>
