@@ -48,6 +48,10 @@ nav{
     text-decoration: none;
 }
 
+.nav-link:hover{
+    color: black
+}
+
 .admin-login{
     flex: 1;
     justify-content: flex-end;
@@ -92,6 +96,12 @@ nav{
     height: 50px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.cta-select:hover{
+    background:#C1292E ;
+    color: #fff;
+    transition: all 0.2s ease-out;
 }
 
 .cta-contact{
@@ -186,4 +196,13 @@ nav{
     .medium-circle{
         opacity: 0.1;
     }
+
+    nav ul{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+        margin: 0;
+    }
+   
+   
 }
