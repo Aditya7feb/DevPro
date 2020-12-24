@@ -168,7 +168,7 @@ nav{
 
 .titleBG h1{
     color: #fff;
-    font-family: 'Mulish',sans-serif;
+    font-weight: 600;
     font-size: 40px;
     margin-top: 8vh;
 
@@ -212,10 +212,88 @@ nav{
 
 .detail-card-title{
     font-size: 27px;
+    font-weight: 600;
     color:#5B86E5 ;
 }
 
 .detail-card-para{
+    font-size: 13px;
+    margin: 15px 15px 0 15px;
+}
+
+/* PROJECTS SECTION */
+
+#project{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.projectBG{
+    
+    width: 100%;
+    height: 40vh;
+    /* background: radial-gradient(#396afc,#2948ff); */
+    background: linear-gradient(to right,#36D1DC,#5B86E5);
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.projectBG h1{
+    position: relative;
+    top: -280px;
+    color: #5b86e5;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 8vh;
+
+}
+
+.projectDetails{
+    position: relative;
+    top:-430px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-detail-card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.project-detail-card-img{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: linear-gradient(#36D1DC,#5B86E5);
+    /* background: radial-gradient(#396afc,#2948ff); */
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #fff;
+    margin-bottom: 10px;
+}
+
+.project-detail-card-img img{
+    width: 80px;
+}
+
+.project-detail-card-title{
+    font-size: 27px;
+    font-weight: 600;
+    color:#ffffff ;
+}
+
+.project-detail-card-para{
     font-size: 13px;
     margin: 15px 15px 0 15px;
 }
