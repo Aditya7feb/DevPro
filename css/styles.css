@@ -159,9 +159,11 @@ nav{
     width: 100%;
     height: 40vh;
     /* background: radial-gradient(#396afc,#2948ff); */
-    background: linear-gradient(to right,#36D1DC,#5B86E5);
+    background: linear-gradient(to right,rgb(11,77,172),rgb(0,153,194));
     display: flex;
     justify-content: center;
+
+
    
 
 }
@@ -197,13 +199,15 @@ nav{
     display: flex;
     width: 180px;
     height: 180px;
-    border-radius: 50%;
-    background: linear-gradient(#36D1DC,#5B86E5);
+    border-radius: 15px;
+    /* background: linear-gradient(#36D1DC,#5B86E5); */
     /* background: radial-gradient(#396afc,#2948ff); */
+    background: linear-gradient(to right,rgb(11,77,172),rgb(0,153,194));
     align-items: center;
     justify-content: center;
     border: 10px solid #fff;
     margin-bottom: 10px;
+
 }
 
 .detail-card-img img{
@@ -234,7 +238,8 @@ nav{
     width: 100%;
     height: 40vh;
     /* background: radial-gradient(#396afc,#2948ff); */
-    background: linear-gradient(to right,#36D1DC,#5B86E5);
+    /* background: linear-gradient(to right,#36D1DC,#5B86E5); */
+    background: linear-gradient(to right,rgb(11,77,172),rgb(0,153,194));
     display: flex;
     justify-content: center;
    
@@ -274,8 +279,9 @@ nav{
     display: flex;
     width: 180px;
     height: 180px;
-    border-radius: 50%;
-    background: linear-gradient(#36D1DC,#5B86E5);
+    border-radius: 15px;
+    background: linear-gradient(to right,rgb(11,77,172),rgb(0,153,194));
+    /* background: linear-gradient(#36D1DC,#5B86E5); */
     /* background: radial-gradient(#396afc,#2948ff); */
     align-items: center;
     justify-content: center;
@@ -312,7 +318,8 @@ nav{
     width: 100%;
     height: 100vh;
     /* background: radial-gradient(#396afc,#2948ff); */
-    background: linear-gradient(to right,#36D1DC,#5B86E5);
+    /* background: linear-gradient(to right,#36D1DC,#5B86E5); */
+    background: linear-gradient(to right,rgb(11,77,172),rgb(0,153,194));
     display: flex;
     justify-content: center;
     
@@ -352,9 +359,10 @@ nav{
     display: flex;
     width: 180px;
     height: 180px;
-    border-radius: 50%;
-    background: linear-gradient(#36D1DC,#5B86E5);
+    border-radius: 15px;
+    /* background: linear-gradient(#36D1DC,#5B86E5); */
     /* background: radial-gradient(#396afc,#2948ff); */
+    background: linear-gradient(to right,rgb(11,77,172),rgb(0,153,194));
     align-items: center;
     justify-content: center;
     border: 5px solid #fff;
@@ -366,7 +374,7 @@ nav{
     display: flex;
     width: 190px;
     height: 380px;
-    border-radius: 200px 200px 200px 200px;
+    border-radius: 15px;
     background-color: white;
     align-items: flex-start;
     justify-content: center;
@@ -387,6 +395,45 @@ nav{
 .ourTeam-detail-card-para{
     font-size: 13px;
     margin: 15px 15px 0 15px;
+}
+
+/* CONTACT SECTION */
+
+#contact-us{
+width: 100%;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+flex-direction: column;
+}
+
+#contact-us h1{
+    font-size: 30px;
+    font-family: 'Mulish',sans-serif;
+}
+
+.contact-details .location{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-details p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+#copyright{
+    width: 100%;
+    height: 7vh;
+    background:  linear-gradient(to right,rgb(11,77,172),rgb(0,153,194));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    font-size: 14px;
+    font-family: 'Mulish',sans-serif;
 }
 
 /* ANIMATION */
